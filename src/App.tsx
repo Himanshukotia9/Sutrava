@@ -44,7 +44,7 @@ function App() {
       </main>
       
       <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400 z-10">
-        <p>© {new Date().getFullYear()} Suthrava. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Sutrava. All rights reserved.</p>
       </footer>
     </div>
   );
