@@ -16,7 +16,7 @@ const Logo: React.FC<LogoProps> = ({ size = 32, className = '' }) => {
       <span 
         className="font-bold tracking-tight text-2xl bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 text-transparent bg-clip-text"
       >
-        Suthrava
+        Sutrava
       </span>
     </div>
   );
