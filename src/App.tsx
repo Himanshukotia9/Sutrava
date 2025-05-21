@@ -4,6 +4,7 @@ import ContactForm from './components/ContactForm';
 import ThemeToggle from './components/ThemeToggle';
 import BackgroundAnimation from './components/BackgroundAnimation';
 import LaunchCountdown from './components/LaunchCountdown';
+import ConstructionIllustration from './components/ConstructionIllustration';
 
 function App() {
   // Set launch date to 30 days from now
@@ -29,8 +30,7 @@ function App() {
             Our new website is under construction and will be ready soon.
           </p>
         </div>
-        
-        <LaunchCountdown targetDate={launchDate} />
+        <ConstructionIllustration />
         
         <div className="w-full max-w-md animate-slideUp">
           <ContactForm />

@@ -22,7 +22,7 @@ const ContactForm: React.FC = () => {
     try {
       // Using FormSubmit service (formsubmit.co) for email delivery
       // Replace YOUR_EMAIL with the actual email where you want to receive messages
-      const response = await fetch('https://formsubmit.co/ajax/himanshukotia9@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/info@sutrava.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
