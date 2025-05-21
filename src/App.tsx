@@ -5,6 +5,7 @@ import ThemeToggle from './components/ThemeToggle';
 import BackgroundAnimation from './components/BackgroundAnimation';
 import LaunchCountdown from './components/LaunchCountdown';
 import ConstructionIllustration from './components/ConstructionIllustration';
+import { Mail } from 'lucide-react';
 
 function App() {
   // Set launch date to 30 days from now
@@ -32,9 +33,18 @@ function App() {
         </div>
         <ConstructionIllustration />
         
-        <div className="w-full max-w-md animate-slideUp">
-          <ContactForm />
-        </div>
+        <a 
+          href="mailto:info@suthrava.com"
+          className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-lg transition-all duration-300 animate-slideUp"
+        >
+          <div className=''>
+            <div className='flex space-x-2 items-center'>
+              <Mail size={20} />
+              <span>Contact Us</span>
+            </div>
+            <span>info@sutrava.com</span>
+          </div>
+        </a>
       </main>
       
       <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400 z-10">
